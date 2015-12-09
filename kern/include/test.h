@@ -91,3 +91,5 @@ void kmain(char *bootstring);
 
 
 #endif /* _TEST_H_ */
+
+void hello(void);

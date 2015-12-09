@@ -101,9 +101,9 @@ boot(void)
 	kprintf("%s", harvard_copyright);
 	kprintf("\n");
 
-	kprintf("Put-your-group-name-here's system version %s (%s #%d)\n", 
+	kprintf("Ahmed Ali  system version %s (%s #%d)\n", 
 		GROUP_VERSION, buildconfig, buildversion);
-	kprintf("\n");
+	kprintf("\n"); 
 
 	/* Early initialization. */
 	ram_bootstrap();
@@ -206,8 +206,10 @@ void
 kmain(char *arguments)
 {
 	boot();
-
+	hello();
 	menu(arguments);
 
 	/* Should not get here */
 }
+
+
